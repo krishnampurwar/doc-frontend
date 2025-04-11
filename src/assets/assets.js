@@ -23,7 +23,8 @@ import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 import ai from './ai.jpg'
 import weblogo from './web.png'
-
+import blackchain from './blockchain.png'
+import gamedev from './gamedev.png'
 
 
 
@@ -46,34 +47,36 @@ export const assets = {
     stripe_logo,
     razorpay_logo,
     weblogo,
+    blackchain,
+    gamedev,
 }
-
 export const expertisedata = [
     {
         expert: 'AI and Machine Learning',
-        image: ai
+        image: ai // assuming ai is imported correctly
     },
     {
         expert: 'Web Development',
-        image: weblogo
+        image: weblogo // assuming weblogo is imported correctly
     },
     {
         expert: 'Blockchain',
-        image: new Image().src = 'https://via.placeholder.com/300x200.png?text=Blockchain'
+        image: blackchain
     },
     {
         expert: 'Game Development',
-        image: new Image().src = 'https://via.placeholder.com/300x200.png?text=Game+Development'
+        image: gamedev
     },
     {
         expert: 'Cybersecurity',
-        image: new Image().src = 'https://source.unsplash.com/300x200/?cybersecurity'
+        image: 'https://source.unsplash.com/300x200/?cybersecurity'
     },
     {
         expert: 'Data Science',
-        image: new Image().src = 'https://picsum.photosi/300/200'
+        image: 'https://picsum.photos/300/200'
     }
 ];
+
 
 
 
